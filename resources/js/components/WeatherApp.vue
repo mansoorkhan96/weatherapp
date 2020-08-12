@@ -1,7 +1,7 @@
 <template>
     <div class="text-white mb-8">
         <div class="places-input text-gray-800">
-            <input type="search" id="address" class="form-control" placeholder="Where are we going?" />
+            <input type="search" id="address" class="form-control" placeholder="Search City.." />
 
             <p>Selected: <strong id="address-value">none</strong></p>
         </div>
