@@ -31,15 +31,21 @@ Compile all the Vue dependencies using npm
 
     nmp run dev
 
+Copy the example env file and make the required configuration changes in the .env file
+
+    cp .env.example .env
+
 Change API keys
 
     Algolia APP_ID (path: '/resources/js/components/WeatherApp.vue')
     Algolia API_KEY (path: '/resources/js/components/WeatherApp.vue')
     OpenWeather API_KEY (path: '.env', key: OPEN_WEATHER)
 
-Copy the example env file and make the required configuration changes in the .env file
+Compile all the new code changes
 
-    cp .env.example .env
+    nmp run watch
+    or
+    nmp run dev
 
 Generate a new application key
 
