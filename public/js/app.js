@@ -1961,8 +1961,8 @@ __webpack_require__.r(__webpack_exports__);
 
     this.fetchData();
     var placesAutocomplete = places({
-      appId: 'pl8ZMKQY2WGL',
-      apiKey: '5af9b7ce11f877e7e2c34e4385bee479',
+      appId: 'app_id',
+      apiKey: 'api_key',
       container: document.querySelector('#address')
     }).configure({
       type: 'city',
@@ -37741,11 +37741,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "places-input text-gray-800" }, [
       _c("input", {
         staticClass: "form-control",
-        attrs: {
-          type: "search",
-          id: "address",
-          placeholder: "Where are we going?"
-        }
+        attrs: { type: "search", id: "address", placeholder: "Search City.." }
       }),
       _vm._v(" "),
       _c("p", [
@@ -50093,8 +50089,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\weather_app\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\weather_app\resources\css\main.css */"./resources/css/main.css");
+__webpack_require__(/*! C:\xampp\htdocs\weatherapp\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\weatherapp\resources\css\main.css */"./resources/css/main.css");
 
 
 /***/ })
